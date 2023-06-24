@@ -1,18 +1,4 @@
-## Getting Started
+## LGMVIP-Java-Task-2
+Tic-Tac-Toe game
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+The game starts with two players as active members, having a one-print board on the screen which displays 9 boxes (i.e., 3×3). The first person who starts the game has to enter either X or O for any one box, followed by the other player entering the other X or O (opposite to what the first player has entered). this continues unless any one of them gets a line cut either diagonally or straight. And the person who founds the line is the winner of the game.
